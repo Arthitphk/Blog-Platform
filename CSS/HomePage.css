@@ -1,0 +1,98 @@
+
+
+/*---------------------------------------
+Topic
+---------------------------------------*/
+
+.Topic {
+    margin: 0 auto;
+    max-width: 1320px;
+    border-bottom: solid 3px black;
+    font-size: 50px;
+    text-wrap: wrap;
+    padding: 20px;
+}
+
+@media (max-width: 	1140px) {
+    .Topic {
+        margin: 20px;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 	576px) {
+    .Topic {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+
+
+/*---------------------------------------
+Hero
+---------------------------------------*/
+
+.warpper {
+    margin-top: 40%;
+}
+
+
+
+
+
+
+/*---------------------------------------
+blog Card
+---------------------------------------*/
+.Card{
+    margin-top: 50px;
+}
+
+.card-blog {
+    position: relative;
+}
+
+.card-blog img{
+    width: 100%;
+    border: solid 3px black;
+}
+
+.Card-warpper {
+    display: grid;
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+
+@media (max-width: 	1140px) {
+    .Card-warpper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 	767px) {
+    .Card-warpper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+/*---------------------------------------
+footer
+---------------------------------------*/
+.footer {
+    margin-top: 50px;
+}
